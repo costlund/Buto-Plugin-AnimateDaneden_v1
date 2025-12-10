@@ -1,47 +1,38 @@
 # Buto-Plugin-AnimateDaneden_v1
 
-Animate element.
-Add class animated and what kind of animation. Also add class infinite if necessary.
+<p>Animate element.
+Add class animated and what kind of animation. 
+Also add class infinite if necessary.</p>
+<ul>
+<li><a href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a></li>
+<li><a href="https://github.com/daneden/animate.css">https://github.com/daneden/animate.css</a></li>
+</ul>
 
-## Class
+<a name="key_0"></a>
 
-Add class animated and name of animation to an element. (not span tags?)
+## Usage
 
-### Infinite
-Add class infinite for constant animation.
+<p>Do animations via attribute class or Javascript.</p>
 
+<a name="key_0_0"></a>
 
-https://daneden.github.io/animate.css/
+### Class
 
-https://github.com/daneden/animate.css
+<pre><code>&lt;h1 class="animated bounce"&gt;Class&lt;/h1&gt;</code></pre>
 
+<a name="key_0_1"></a>
 
-## Widget
-Include in head.
-```
-type: widget
-data:
-  plugin: animate/daneden_v1
-  method: include
-```
+### Javascript
 
-## Class
-```
-<h1 class="animated bounce">Class</h1>
-```
+<pre><code>&lt;h1 id="js"&gt;Javascript&lt;/h1&gt;
+&lt;button onclick="PluginAnimateDaneden_v1.animate('js', 'bounce')"&gt;Animate&lt;/button&gt;</code></pre>
+<p>If using Javascript on an element concider not to add the class attribute also. This could cause the animation to not work.</p>
 
+<a name="key_0_2"></a>
 
-## Javascript
-```
-<h1 id="js">Javascript</h1>
-<button onclick="PluginAnimateDaneden_v1.animate('js', 'bounce')">Animate</button>
-```
+### Animations
 
-
-## Animations
-
-```
-bounce
+<pre><code>bounce
 shake
 wobble
 bounceInLeft
@@ -117,6 +108,20 @@ zoomInDown
 zoomOut
 zoomOutUp
 slideInUp
-slideOutUp
-```
+slideOutUp</code></pre>
+
+<a name="key_1"></a>
+
+## Widgets
+
+<p>Include widget include in head.</p>
+
+<a name="key_1_0"></a>
+
+### widget_include
+
+<pre><code>type: widget
+data:
+  plugin: animate/daneden_v1
+  method: include</code></pre>
 

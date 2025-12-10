@@ -1,7 +1,12 @@
-version: '1.0'
+version: 1.0.1
 history:
-  '1.0':
+  1.0.1:
+    date: '2025-12-10'
+    title: Readme
+    description: 'Readme improvements.'
+  1.0.0:
     date: '2019-04-09'
+    title: Manifest
     description: 'Manifest created.'
 plugin:
   -
