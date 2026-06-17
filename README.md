@@ -12,17 +12,23 @@ Also add class infinite if necessary.</p>
 
 ## Usage
 
+
+
 <p>Do animations via attribute class or Javascript.</p>
 
 <a name="key_0_0"></a>
 
 ### Class
 
+
+
 <pre><code>&lt;h1 class="animated bounce"&gt;Class&lt;/h1&gt;</code></pre>
 
 <a name="key_0_1"></a>
 
 ### Javascript
+
+
 
 <pre><code>&lt;h1 id="js"&gt;Javascript&lt;/h1&gt;
 &lt;button onclick="PluginAnimateDaneden_v1.animate('js', 'bounce')"&gt;Animate&lt;/button&gt;</code></pre>
@@ -31,6 +37,8 @@ Also add class infinite if necessary.</p>
 <a name="key_0_2"></a>
 
 ### Animations
+
+
 
 <pre><code>bounce
 shake
@@ -114,11 +122,15 @@ slideOutUp</code></pre>
 
 ## Widgets
 
+
+
 <p>Include widget include in head.</p>
 
 <a name="key_1_0"></a>
 
 ### widget_include
+
+
 
 <pre><code>type: widget
 data:
